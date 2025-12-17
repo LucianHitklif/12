@@ -12,4 +12,4 @@ for i in range (1, len(numbers)):
         min_index = i
 
 numbers[0], numbers[min_index] = numbers[min_index], numbers[0]
-print(numbers)
+print(f"Полученный список после обмена: {numbers}")
