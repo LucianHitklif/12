@@ -1,10 +1,9 @@
 word = input("Введите слово: ")
 
-print(*word, sep=',')
+line = list(word)
+rev_line = line[::-1]
 
-word1 = word[::1]
-
-if word1 == word:
+if line == rev_line:
     print("Это палиндром")
 else:
     print("Не палиндром")
